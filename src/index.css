@@ -1,13 +1,36 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Ball {
+  background-color: lightblue;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  width: 5rem;
+  height: 3rem;
+  padding-top: 1.4rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.Lottery {
+  background-color: turquoise;
+  padding: 1rem 0 2rem 0;
+  text-align: center;
+  margin: 1em auto auto;
+  border-radius: 15rem;
+  width: 40rem;
+  color: crimson;
+}
+
+.Lottery button {
+  background-color: crimson;
+  color: white;
+  font-size: 120%;
+  border-radius: 20px;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
 }
